@@ -22,26 +22,40 @@ header {
   text-align: center;
 }
 
+label {
+  color: var(--primario);
+  margin: 3rem 0 1rem 0;
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
 }
 
+.input-search {
+  color: var(--negro);
+  border-radius: 9999em;
+  box-sizing: border-box;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+  padding: 8px 8px 8px 20px;
+  width: 100%;
+  font-size: 20px;
+}
 @media (min-width: 768px) {
   .container {
     width: 80%;
   }
-}
-
-.input-search {
-  color: var(--negro);
-  border-radius: 9999em;
-  font-size: 18px;
-  letter-spacing: 2px;
-  margin: 5rem 0 1rem 0;
-  padding: 8px 8px 8px 20px;
-  width: 100%;
-  font-size: 28px;
+  label {
+    font-size: 2rem;
+  }
+  .input-search {
+    font-size: 28px;
+  }
 }
 
 .tarjeta {

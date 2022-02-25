@@ -36,6 +36,7 @@ export const SearchBar = () => {
 
   return (
       <>
+        <label>Find events in your city:</label>
         <input 
         className="input-search"    
         type="text"
