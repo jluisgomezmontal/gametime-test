@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+# Simple app with a search bar connected to an API you can see the app in https://gametimetest.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
